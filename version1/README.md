@@ -1,4 +1,4 @@
-# Simple Web Application
+# Version 1
 
 This is a simple web application that includes an HTML form styled with CSS. The application can be dockerized using the provided Dockerfile to easily run it in a Docker container.
 
