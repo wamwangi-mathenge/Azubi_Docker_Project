@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 2 with Server Side Scripting in PHP</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Azubi Docker Form</h1>
+    <form action="handler.php" method="POST">
+        <div class="form-group">
+            <label for="name">Username:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Username Here">
+        </div>
+        <br />
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password Here">
+        </div>
+        <br />
+
+        <div>
+            <input type="hidden" name="token" value="">
+            <input class="button" type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
